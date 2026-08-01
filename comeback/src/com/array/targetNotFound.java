@@ -29,7 +29,7 @@ public class targetNotFound {
 			}
 
 		}
-		pair(first, second, target);z3
+		pair(first, second, target);
 	}
 
 }

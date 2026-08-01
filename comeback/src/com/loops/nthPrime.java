@@ -3,6 +3,7 @@ package com.loops;
 import java.util.Scanner;
 
 public class nthPrime {
+	int count = 0;
 	static boolean isPrime(int n) {
 		boolean status = true;
 		for (int i = 2; i < n; i++) {
@@ -11,7 +12,7 @@ public class nthPrime {
 				break;
 				
 			}
-			count++;
+			
 		}
 		return status;
 
@@ -29,7 +30,7 @@ public class nthPrime {
 				System.out.println(i);
 
 			}
-			while(count=m) {
+			while(count == m) {
 				System.out.println(m);
 			}
 		}
